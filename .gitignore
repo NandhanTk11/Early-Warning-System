@@ -1,0 +1,10 @@
+# Python Environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Datasets and Media
+*.avi
+*.mp4
+ground_truth.txt
