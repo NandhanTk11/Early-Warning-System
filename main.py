@@ -49,7 +49,6 @@ def main():
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
         # --- 3. Pipeline Execution (Triggers only when window is full) ---
-        # --- 3. Pipeline Execution (Triggers only when window is full) ---
         if len(raw_signal_buffer) == buffer_size:
             raw_signal = np.array(raw_signal_buffer)
             

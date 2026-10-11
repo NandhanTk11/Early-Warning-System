@@ -7,4 +7,13 @@ env/
 # Datasets and Media
 *.avi
 *.mp4
+*.png
 ground_truth.txt
+
+# PURE Dataset (subject-scenario folders and ground truth JSONs)
+[0-9][0-9]-[0-9][0-9]/
+[0-9][0-9]-[0-9][0-9].json
+
+# Documents & Research Papers
+*.pdf
+
